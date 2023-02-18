@@ -31,7 +31,7 @@ const sendWelcomeEmail = (email, name) => {
                 role: 'Frontend',
             },
         })
-        .then(console.log)
+        .then()
         .catch(console.log)
 }
 
@@ -55,7 +55,7 @@ const sendCancelationEmail = (email, name) => {
                 role: 'Frontend',
             },
         })
-        .then(console.log)
+        .then()
         .catch(console.log)
 }
 
